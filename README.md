@@ -3,6 +3,16 @@ Challenge Greydive
 
 Para Realizar este challenge utilice Node,js, axios, express, postgreSQL y sequelize. Para poder utilizarlo de forma local solo deben ejecutar npm install en el directorio del proyecto, y posterior a eso, en el archivo db.js cambiar la inicializacion de sequelice al modo loca. Para levantar el servidor utilizar npm start.
 
+Crear un archivo .env para las variables de entorno:
+
+PORT=3001
+DB_USER=usuario de la base de datos
+DB_PASSWORD=contraseña de la base de datos
+DB_NAME=nombre de la base de datos
+DB_HOST=localhost
+DB_PORT=5432
+
+
 A continuacion presento las pautas del challenge.:
 
 Challenge greydive​Tu misión consiste en desarrollar una aplicación para crear encuestas interactivas similares a Google Forms. A continuación, se detallan los requisitos clave del desafío: Objetivo del Desafío: Crear una aplicación utilizando la tecnología de tu preferencia (ya sea en el ámbito frontend o backend) que pueda leer un archivo JSON proporcionado y generar interfaces de encuestas únicas para cada ítem en el archivo. Asegúrate de que el diseño y la estética de la aplicación sean distintos a los de Google Forms, y estás autorizado a utilizar librerías según consideres necesario para lograrlo.
